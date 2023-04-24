@@ -6,11 +6,11 @@ import (
 
 	_ "github.com/go-sql-driver/mysql"
 	"github.com/sashabaranov/go-openai"
-	"github.com/welbenCOSTA/chatservice/configs"
-	"github.com/welbenCOSTA/chatservice/internal/infra/repository"
-	"github.com/welbenCOSTA/chatservice/internal/infra/web"
-	"github.com/welbenCOSTA/chatservice/internal/infra/web/webserver"
-	"github.com/welbenCOSTA/chatservice/internal/usecase/chatcompletion"
+	"github.com/welbenCOSTA/chatservice/server/configs"
+	"github.com/welbenCOSTA/chatservice/server/internal/infra/repository"
+	"github.com/welbenCOSTA/chatservice/server/internal/infra/web"
+	"github.com/welbenCOSTA/chatservice/server/internal/infra/web/webserver"
+	"github.com/welbenCOSTA/chatservice/server/internal/usecase/chatcompletion"
 )
 
 func main() {

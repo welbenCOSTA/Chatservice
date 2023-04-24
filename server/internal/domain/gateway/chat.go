@@ -3,7 +3,7 @@ package gateway
 import (
 	"context"
 
-	"github.com/welbenCOSTA/chatservice/internal/domain/entity"
+	"github.com/welbenCOSTA/chatservice/server/internal/domain/entity"
 )
 
 type ChatGateway interface {

@@ -1,4 +1,4 @@
-module github.com/welbenCOSTA/chatservice
+module github.com/welbenCOSTA/chatservice/server
 
 go 1.20
 

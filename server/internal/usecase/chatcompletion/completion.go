@@ -5,8 +5,8 @@ import (
 	"errors"
 
 	openai "github.com/sashabaranov/go-openai"
-	"github.com/welbenCOSTA/chatservice/internal/domain/entity"
-	"github.com/welbenCOSTA/chatservice/internal/domain/gateway"
+	"github.com/welbenCOSTA/chatservice/server/internal/domain/entity"
+	"github.com/welbenCOSTA/chatservice/server/internal/domain/gateway"
 )
 
 type ChatCompletionConfigInputDTO struct {

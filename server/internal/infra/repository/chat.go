@@ -6,8 +6,8 @@ import (
 	"errors"
 	"time"
 
-	"github.com/welbenCOSTA/chatservice/internal/domain/entity"
-	"github.com/welbenCOSTA/chatservice/internal/infra/db"
+	"github.com/welbenCOSTA/chatservice/server/internal/domain/entity"
+	"github.com/welbenCOSTA/chatservice/server/internal/infra/db"
 )
 
 type ChatRepositoryMySQL struct {

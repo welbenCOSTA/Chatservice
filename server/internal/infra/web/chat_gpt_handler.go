@@ -5,7 +5,7 @@ import (
 	"io/ioutil"
 	"net/http"
 
-	"github.com/welbenCOSTA/chatservice/internal/usecase/chatcompletion"
+	"github.com/welbenCOSTA/chatservice/server/internal/usecase/chatcompletion"
 )
 
 type WebChatGPTHandler struct {
